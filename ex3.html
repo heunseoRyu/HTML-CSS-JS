@@ -7,19 +7,31 @@
 </head>
 <body>
     <form action="server" method="get">
-        <input type="text"> <br>
+        <input type="text" > <br>
         <input type="password"> <br>
         <button>로그인</button>
     </form>
 
     <h1> 여행지 선택 </h1>
     <label>일본</label>
-    <input type="checkbox" class="my-chk">
+    <input type="radio" name="my-chk" value="일본">
     <label>중국</label>
-    <input type="checkbox" class="my-chk">
+    <input type="radio" name="my-chk" value="중국">
     <label> 대만 </label>
-    <input type="checkbox" class="my-chk">
+    <input type="radio" name="my-chk" value="대만">
     <input type="text" value="김대리">
+    <br>
     
+    <input type="text">
+    @
+    <select>
+        <option>-선택-</option>
+        <option>naver.com</option>
+        <option>gmail.com</option>
+        <option>직접입력</option>
+    </select>
+    <input type="text" placeholder="직접입력">
+
+    <input type="file">
 </body>
 </html>

@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type:none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#wrap{
+    width:1000px;
+    height:650px;
+    background-color: aqua;
+}
+
+#header{
+    float:left;
+    width:200px;
+    height:650px;
+    background-color: aquamarine;
+}
+
+#header>#logo{
+    width:200px;
+    height:100px;
+    background-color: blueviolet;
+}
+
+#header>#nav{
+    width:200px;
+    height:550px;
+    background-color: brown;
+}
+
+#main{
+    float:left;
+    width:800px;
+    height:650px;
+    background-color: antiquewhite;
+}
+
+#main>#slide{
+    width:800px;
+    height:350px;
+    background-color: chartreuse;
+}
+
+
+#main>#contents{
+    width:800px;
+    height:200px;
+    background-color: chocolate;
+}
+
+#contents>#cont1{
+    float:left;
+    width:320px;
+    height:200px;
+    background-color: coral;   
+}
+#contents>#cont2{
+    float:left;
+    width:240px;
+    height:200px;
+    background-color: cornsilk;   
+}
+#contents>#cont3{
+    float:left;
+    width:240px;
+    height:200px;
+    background-color: crimson;   
+}
+
+#main>#footer{
+    width:800px;
+    height:100px;
+    background-color: magenta;
+}
+
+#footer>#logo{
+    float:left;
+    width:200px;
+    height: 100px;
+    background-color: darkblue;
+}
+
+#footer>#footer-right{
+    float:right;
+    width:600px;
+    height: 100px;
+    background-color: darkcyan;
+}
+
+#footer-right>#bottom-menu{
+    width:600px;
+    height:50px;
+    background-color: darkkhaki;
+}
+#footer-right>#copyright{
+    width:600px;
+    height:50px;
+    background-color: magenta;
+}
+
